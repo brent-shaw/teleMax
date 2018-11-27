@@ -1,8 +1,8 @@
 {
 	"name" : "sonfication-of-network-telescopes",
 	"version" : 1,
-	"creationdate" : 3624392348,
-	"modificationdate" : 3624392415,
+	"creationdate" : -670574948,
+	"modificationdate" : -669242802,
 	"viewrect" : [ 34.0, 88.0, 375.0, 634.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -12,15 +12,21 @@
 		"patchers" : 		{
 			"sonification.maxpat" : 			{
 				"kind" : "patcher",
-				"toplevel" : 1
+				"local" : 1,
+				"toplevel" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/teleMax-master (1)/teleMax-master/teleMax/patchers",
+					"projectrelativepath" : "../patchers"
+				}
+
 			}
 ,
 			"basic_grain.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Downloads/teleMax-master/net_telescope/patchers",
-					"projectrelativepath" : "../../../../Downloads/teleMax-master/net_telescope/patchers"
+					"bootpath" : "~/Desktop/teleMax-master (1)/teleMax-master/teleMax/patchers",
+					"projectrelativepath" : "../patchers"
 				}
 
 			}
@@ -29,28 +35,18 @@
 ,
 		"data" : 		{
 			"BinauralDecoder_x64_20181001.maxsnap" : 			{
-				"kind" : "maxsnapshot",
-				"singleton" : 				{
-					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
-					"projectrelativepath" : "../../../../Max/Projects/net_telescope/net_telescope/data"
-				}
-
+				"kind" : "maxsnapshot"
 			}
 ,
 			"MultiEncoder_x64_20181004.maxsnap" : 			{
-				"kind" : "maxsnapshot",
-				"singleton" : 				{
-					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
-					"projectrelativepath" : "../../../../Max/Projects/net_telescope/net_telescope/data"
-				}
-
+				"kind" : "maxsnapshot"
 			}
 ,
 			"BinauralDecoder_x64.maxsnap" : 			{
 				"kind" : "maxsnapshot",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/git-repos/teleMax/teleMax/data",
+					"bootpath" : "~/Desktop/teleMax-master (1)/teleMax-master/teleMax/data",
 					"projectrelativepath" : "../data"
 				}
 
